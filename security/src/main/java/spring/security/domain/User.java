@@ -32,6 +32,9 @@ public class User {
 
     private LocalDateTime createDate;
 
+    private String provider;
+    private String providerId;
+
     private User() {
     }
 

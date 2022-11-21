@@ -8,6 +8,7 @@ package spring.security.auth;
 
 import lombok.Builder;
 import lombok.Getter;
+import lombok.ToString;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import spring.security.domain.Role;
@@ -17,6 +18,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 // Security Session => Authentication => UserDetails
+@ToString
 @Getter
 public class PrincipalDetails implements UserDetails {
 
